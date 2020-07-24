@@ -11,6 +11,9 @@ import {NavLink} from 'react-router-dom';
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 0,
+        textAlign: 'center',
+        backgroundColor: '#9184DA',
+        paddingTop: '45px',
     },
     paper: {
         padding: theme.spacing(2),
@@ -27,7 +30,7 @@ function Home() {
         <div className={classes.root}>
             <Grid container spacing={0}>
                 <Grid item xs={4}>
-                    <Paper className={classes.paper} elevation={0}>
+                    
 
                         <a href='http://www.webbers.com.pk' className='pad-tb' target="_blank">
                             <img src={logo} height='150px' width='220px' alt='webbers.com.pk' />
@@ -35,14 +38,14 @@ function Home() {
                         <h1><strong className='title'>The Web<br/>Development Company</strong></h1>
                         <h4 className='homtxt-mr'>Professionalism, Quality of work and Dedication is our Uniqueness</h4>
                         <NavLink to="/services" className='strtbtn'>Get Started</NavLink>
-                    </Paper>
+                    
                 </Grid>
                 <Grid item xs={8}>
-                    <Paper className={classes.paper} elevation={0}>
+                    
                         <div>
                         <AnimHom/>
                         </div>
-                    </Paper>
+                    
                 </Grid>
             </Grid>
         </div>
