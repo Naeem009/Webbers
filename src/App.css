@@ -1,38 +1,147 @@
-.App {
+body{
+  background-color: rgb(145, 132, 218);
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.NavLink {
+  padding: 5px;
+  color: rgb(56, 18, 18);
+  align-content: right;
+  text-decoration: none;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.div-bg{
+  background-color: rgb(60, 60, 255);
+}
+.homtxt-mr{
+  margin-left: 25px;
+  padding-bottom: 3px;
+  color: rgb(21, 27, 56);
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+}
+.title{
+  padding-top: 3px;
+  margin-left: 15px;
+  color: rgb(44, 73, 202);
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
+}
+.strtbtn{
+  background-color: transparent;
+  border: 2.5px;
+  color: rgb(22, 5, 41);
+  padding: 16px 32px;
   text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 40px;
+}
+.strtbtn:hover {
+  opacity: 1;
+  color: rgb(22, 5, 41);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.brand{
+  
+  color: rgb(184, 25, 25);
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bolder;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.pad-tb{
+  padding-top: 35px;
+  vertical-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+@keyframes man{
+  
+  from{left: 0px; top:-100px; opacity: 0}
+  to{left: 0px;  top: 0px;opacity: 1}
+}
+.man{
+  position: relative;
+  animation-name: man;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  padding-top: 100px;
+  padding-left: 470px;
+}
+@keyframes girl{
+  
+  from{left:-90px; opacity: 0}
+  to{left: 0px;  opacity: 1}
+}
+.girl{
+  position: relative;
+  animation-name: girl;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  padding-top: 120px;
+  padding-left: 50px;
+}
+@keyframes mainmov{
+  
+  from{left:623px; opacity: 0}
+  to{left: 473px; opacity: 1}
+}
+.mainmov{
+  position: absolute;
+  animation-name: mainmov;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  padding-left: 160px;
+  padding-top: 40px;
+}
+@keyframes mob{
+  
+  from{left:250px; opacity: 0}
+  to{left: 0px; opacity: 1}
+}
+.mob{
+  position: relative;
+  animation-name: mob;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes hom{
+  
+  from{left: 0px; top:200px; opacity: 0}
+  to{left: 0px;  top: 0px;opacity: 1}
+}
+.hom{
+  position: relative;
+  animation-name: hom;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cardsp{
+  display: flex;
+  
+  align-items: baseline;
+  padding: 10px;
+  margin: 10px;
+}
+.divspc{
+  position: absolute;
+  margin-top:  50px;
+  
+ 
+}
+.ftr{
+  background-color: #9184DA;
+  text-align: center;
+  
+}
+.bar{
+  color: #7e0000;
+  font-weight: bolder;
 }
