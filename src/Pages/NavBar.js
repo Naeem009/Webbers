@@ -23,7 +23,7 @@ export default function NavBar() {
         <div>
             
             
-            <AppBar position="static">
+            <AppBar position="fixed">
                 <Toolbar className='NavLink'>
                     <Typography variant="h6" color="inherit">
                         <Link to="/" className='NavLink'>Home</Link>

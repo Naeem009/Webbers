@@ -1,6 +1,7 @@
 body{
   background-color: rgb(145, 132, 218);
   font-family: 'Titillium Web', sans-serif;
+  padding-top: 80px;
 }
 
 .NavLink {
