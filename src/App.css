@@ -89,14 +89,14 @@ body{
 @keyframes mainmov{
   
   from{left:623px; opacity: 0}
-  to{left: 473px; opacity: 1}
+  to{left: 466px; opacity: 1}
 }
 .mainmov{
   position: absolute;
   animation-name: mainmov;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
-  padding-left: 160px;
+  padding-left: 175px;
   padding-top: 40px;
 }
 @keyframes mob{
