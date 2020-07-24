@@ -32,8 +32,8 @@ function Home() {
                         <a href='http://www.webbers.com.pk' className='pad-tb' target="_blank">
                             <img src={logo} height='150px' width='220px' alt='webbers.com.pk' />
                         </a>
-                        <h1><strong className='title'>The Web <br/>Development Company</strong></h1>
-                        <h4 className='homtxt-mr'>Professionalism, quality of work and dedication is our asset</h4>
+                        <h1><strong className='title'>The Web<br/>Development Company</strong></h1>
+                        <h4 className='homtxt-mr'>Professionalism, Quality of work and Dedication is our Uniqueness</h4>
                         <NavLink to="/services" className='strtbtn'>Get Started</NavLink>
                     </Paper>
                 </Grid>
