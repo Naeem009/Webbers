@@ -7,6 +7,7 @@ function NavBar() {
     
     return (
         <div>
+            
             <AppBar position="fixed">
                 <Toolbar className='NavLink'>
                     <NavLink to="/" className='NavLink' exact activeClassName='activelink'>Home</NavLink>
@@ -15,7 +16,8 @@ function NavBar() {
                     <NavLink to="/contacts" className='NavLink' exact activeClassName='activelink'>Contacts</NavLink>
                 </Toolbar>
             </AppBar>
-        </div>
+            </div>
+            
     );
 }
 export default NavBar;

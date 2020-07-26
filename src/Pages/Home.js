@@ -27,6 +27,7 @@ function Home() {
     const classes = useStyles();
     return (
         <div className={classes.root}>
+            
             <Grid container spacing={0}>
                 <Grid item xs={4}><a href='http://www.webbers.com.pk' className='pad-tb' target="_blank" rel="noopener noreferrer">
                     <img src={logo} height='150px' width='220px' alt='webbers.com.pk' /></a>
@@ -40,7 +41,9 @@ function Home() {
                     </div>
                 </Grid>
             </Grid>
-        </div>
+        
+            </div>
+            
     );
 }
 
