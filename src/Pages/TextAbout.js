@@ -1,8 +1,19 @@
 import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme)=> ({
+    root: {
+      flexGrow: 1,
+      overflow: 'hidden',
+      
+      
+    },
+}));
 
 function Text(){
+    const classes = useStyles();
     return(
-        <div className='homtxt-mr'>
+        <div className={classes.root}>
             <h1><strong className='title'>About us</strong></h1>
                         <h4>
                             We are team of professionals, developing web based applications, 

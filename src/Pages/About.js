@@ -4,8 +4,7 @@ function About() {
     
     return (
         <div className='homtxt-mr'>
-                    <Text />
-            
+            <Text />            
         </div>
     );
 }

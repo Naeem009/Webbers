@@ -5,6 +5,7 @@ body{
   background-color: #9184DA;
   font-family: 'Titillium Web', sans-serif;
   padding-top: 80px;
+  overflow: auto;
 }
 
 .NavLink {
@@ -94,7 +95,7 @@ body{
 @keyframes mainmov{
   
   from{left:623px; opacity: 0}
-  to{left: 466px; opacity: 1}
+  to{left: 476px; opacity: 1}
 }
 .mainmov{
   position: absolute;
