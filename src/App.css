@@ -9,7 +9,7 @@ body{
 
 .NavLink {
   padding: 5px;
-  color: rgb(56, 18, 18);
+  color: white;
   align-content: right;
   text-decoration: none;
   font-family: 'Titillium Web', sans-serif;
@@ -21,6 +21,7 @@ body{
 }
 .homtxt-mr{
   margin-left: 25px;
+  margin-right: 25px;
   padding-bottom: 3px;
   color: rgb(21, 27, 56);
   font-family: 'Titillium Web', sans-serif;
@@ -148,4 +149,11 @@ body{
 .bar{
   color: #7e0000;
   font-weight: bolder;
+}
+
+.activelink{
+  color: rgb(56, 18, 18);
+  font-size: 18px;
+  font-weight: bold;
+  
 }
