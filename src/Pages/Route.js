@@ -10,7 +10,6 @@ import Footer from './Footer';
 function RouteConfig() {
   return (
     <div>
-      
       <Router>
         <NavBar />
         <Switch>
