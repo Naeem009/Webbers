@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
 
 body{
-  background-color: rgb(145, 132, 218);
+  background-color: #9184DA;
   font-family: 'Titillium Web', sans-serif;
   padding-top: 80px;
 }
@@ -26,6 +26,7 @@ body{
   color: rgb(21, 27, 56);
   font-family: 'Titillium Web', sans-serif;
   font-size: 16px;
+  text-align: justify;
 }
 .title{
   padding-top: 3px;
@@ -152,8 +153,11 @@ body{
 }
 
 .activelink{
+  padding: 5px;
   color: rgb(56, 18, 18);
   font-size: 18px;
   font-weight: bold;
-  
+  align-content: right;
+  text-decoration: none;
+  font-family: 'Titillium Web', sans-serif;  
 }

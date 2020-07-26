@@ -7,7 +7,7 @@ function NavBar() {
     return (
         <div>
             <AppBar position="fixed">
-                <Toolbar className='NavLink' color='inherit'>
+                <Toolbar className='NavLink'>
                     <NavLink to="/" className='NavLink' exact activeClassName='activelink'>Home</NavLink>
                     <NavLink to="/about" className='NavLink' exact activeClassName='activelink'>About</NavLink>
                     <NavLink to="/services" className='NavLink' exact activeClassName='activelink'>Services</NavLink>
