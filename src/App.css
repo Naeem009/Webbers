@@ -1,22 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+
 
 body{
   background-color: #9184DA;
   font-family: 'Titillium Web', sans-serif;
-  padding-top: 80px;
-  overflow: auto;
+  overflow: scroll;
 }
 
-.NavLink {
-  padding: 5px;
-  color: white;
-  align-content: right;
-  text-decoration: none;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
 .div-bg{
   background-color: rgb(60, 60, 255);
 }
@@ -37,22 +29,25 @@ body{
   font-weight: bolder;
 }
 .strtbtn{
-  background-color: transparent;
-  border: 2.5px;
-  color: rgb(22, 5, 41);
-  padding: 16px 32px;
+  border: 2.5px solid rgb(22, 5, 41);
+  color:  rgb(22, 5, 41);
+  padding: 12px 30px;
+  display: inline-block;
   text-align: center;
   font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
   margin: 4px 2px;
   opacity: 0.6;
-  transition: 0.3s;
+  transition: 0.5s;
   text-decoration: none;
   border-style: solid;
-  border-radius: 40px;
+  border-radius: 50px;
 }
 .strtbtn:hover {
   opacity: 1;
-  color: rgb(22, 5, 41);
+  background-color: rgb(22, 5, 41);
+  text-decoration: none;
 }
 
 .brand{
@@ -94,8 +89,8 @@ body{
 }
 @keyframes mainmov{
   
-  from{left:623px; opacity: 0}
-  to{left: 476px; opacity: 1}
+  from{left:400px; opacity: 0}
+  to{left: 16px; opacity: 1}
 }
 .mainmov{
   position: absolute;
@@ -148,17 +143,36 @@ body{
   text-align: center;
   
 }
-.bar{
-  color: #7e0000;
-  font-weight: bolder;
-}
 
-.activelink{
-  padding: 5px;
-  color: rgb(56, 18, 18);
+.navbar a:hover{
+   color: rgb(56, 18, 18);
   font-size: 18px;
+}
+.navbar-brand{
+  font-size: 18px;
+  
+}
+.nav_active{
+  border-bottom: 1px solid black;
   font-weight: bold;
-  align-content: right;
-  text-decoration: none;
-  font-family: 'Titillium Web', sans-serif;  
+  color: white;
+}
+#header{
+  width: 100%;
+  height: 80vh;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+}
+.header-img{
+  text-align: right;
+}
+.bar{
+  color: white;
+  font-weight: bolder;
+  font-size: large;
 }

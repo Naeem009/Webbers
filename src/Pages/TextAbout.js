@@ -1,19 +1,8 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-
-const useStyles = makeStyles((theme)=> ({
-    root: {
-      flexGrow: 1,
-      overflow: 'hidden',
-      
-      
-    },
-}));
 
 function Text(){
-    const classes = useStyles();
     return(
-        <div className={classes.root}>
+        <div>
             <h1><strong className='title'>About us</strong></h1>
                         <h4>
                             We are team of professionals, developing web based applications, 
@@ -54,9 +43,9 @@ function Text(){
                                 <li>Web Hosting</li>
                                 <li>Domain Registration</li>
                                 <li>Mobile Apps (Android & iPhone)</li>
-                                <li>CHOOSE US FOR YOUR BUSINESS NEEDS.</li>
                         </ul>
-                        <br />Team<br /><span className='brand'>WEBBERS</span>
+                        CHOOSE US FOR YOUR BUSINESS NEEDS.
+                        <br />Team<br /><span className='brand'>WEBBERS</span><br/><br/><br/><br/><br/><br/>
                         </h4>
         </div>
     );
