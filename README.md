@@ -1,6 +1,6 @@
 WEBBERS - The Web Development Company.
 
-This is a website re-design of [Webbers](http://wwww.webbers.com.pk)
+This is a website re-design of Webbers
 
 
 ## WEBSITES DEVELOPMENT
