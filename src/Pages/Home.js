@@ -24,7 +24,7 @@ function Home() {
                                 <div className='col-md-6 pt-5 pt-lg-0 order-2 order-lg-1'>
                                     <h1> WEBBERS </h1>
                                     <h1><strong className='title'>The Web<br />Development Company</strong></h1>
-                                    <h3 className='homtx-mr'>Lets be your business partner</h3><br />
+                                    <h3 className='homtx-mr'>Let us be your business partner</h3><br />
                                     <h4 className='homtx-mr'>Professionalism, Quality of work and Dedication is our Uniqueness</h4><br /><br />
                                     <div className='mt-1'>
                                     <NavLink to="/services" className='strtbtn'>More Info</NavLink>
