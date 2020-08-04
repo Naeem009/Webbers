@@ -1,8 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+WEBBERS - The Web Development Company.
 
-## Available Scripts
-
-In the project directory, you can run:
+This is a website re-design of www.webbers.com.pk
 
 ### `yarn start`
 
