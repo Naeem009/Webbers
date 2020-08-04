@@ -1,3 +1,5 @@
+```js
+
 WEBBERS - The Web Development Company.
 
 This is a website re-design of www.webbers.com.pk
@@ -64,17 +66,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-```js
-  import { Component } from '@angular/core';
-  import { MovieService } from './services/movie.service';
-
-  @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css'],
-    providers: [ MovieService ]
-  })
-  export class AppComponent {
-    title = 'app works!';
-  }
 ```
