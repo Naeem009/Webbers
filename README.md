@@ -1,9 +1,9 @@
 WEBBERS - The Web Development Company.
 
 This is a website re-design of www.webbers.com.pk
-
-## WEBSITES DEVELOPMENT
-<span style="color: green"> WEB DEVELOPMENT </span>
+```diff
+## WEBSITES DEVELOPMENT in red
+```
 
 Team of professional developers, taking care of all your online business needs. Proiding
 handful solutions that will cater your global presence and products reach to each level.
