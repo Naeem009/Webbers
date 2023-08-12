@@ -29,7 +29,7 @@ function Contacts() {
                                     Pakistan.<br />
                                     Mobile: +92 321 866 1857
                                     </h3> <br /><br />
-                                    <a href="info@webbers.com.pk" className='strtbtn' target="_blank">Email us</a>
+                                    <a href="m.n.shahzad@gmail.com" className='strtbtn' target="_blank">Email us</a>
                                 </div>
                             
                                 <div className='col-lg-6 order-1 order-lg-2 header-img'>
