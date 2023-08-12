@@ -28,6 +28,7 @@ function Contacts() {
                                     Faisalabad, <br />
                                     Pakistan.<br />
                                     Mobile: +92 321 866 1857
+                                    Email: m.n.shahzad@gmail.com
                                     </h3> <br /><br />
                                     <a href="m.n.shahzad@gmail.com" className='strtbtn' target="_blank">Email us</a>
                                 </div>
