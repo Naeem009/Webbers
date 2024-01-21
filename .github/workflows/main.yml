@@ -42,4 +42,4 @@ jobs:
       run: npm install --global surge
    
     - name: deployment using surge
-      run: surge ./build http://webbers.surge.sh --token ${{ secrets.SESSIONFOUR }}
+      run: surge ./build http://webbers.surge.sh --token ${{ secrets.WEBBERS }}
